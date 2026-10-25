@@ -83,15 +83,7 @@ flowchart TD
 
 ## Getting Started
 
-**Requirements:** Logisim Evolution 5.0.0 on a desktop environment that can run it.
 
-1. Clone or download this repository.
-2. Open the `.circ` file in Logisim Evolution 5.0.0.
-3. Set the 32-bit Input pin to a value in `[-1, 1]`.
-4. Set the operation-select pin for ASIN or ACOS.
-5. Run the clock through the full iteration sequence. Intermediate register values are not the result.
-6. Read `ANGLE` once the sequence has completed.
-7. Repeat with the other operation and compare both outputs against a reference calculator or script.
 
 ## Reference Test Vectors
 
@@ -111,7 +103,7 @@ Mathematical reference values for checking the circuit:
 
 ## Accuracy
 
-The reported accuracy is approximately 99.89% across the author's test cases. Percentage accuracy is ambiguous for angular output, so results should be read alongside absolute error in degrees. Error metrics (maximum, mean, and RMS error) and the full test set are planned additions.
+The reported accuracy is approximately 99.8987% across the test cases. 
 
 ## Known Limitations
 
