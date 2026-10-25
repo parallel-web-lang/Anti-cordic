@@ -12,6 +12,11 @@ The project translates an iterative numerical algorithm into a working logic-lev
 
 ---
 
+
+<img width="1039" height="722" alt="Screenshot 2026-10-26 015420" src="https://github.com/user-attachments/assets/bad4932e-f6cd-4fbd-806e-2353c58c0dfe" />
+
+
+
 ## Overview
 
 Given a value `x`, the circuit estimates the angle whose sine or cosine equals `x`.
